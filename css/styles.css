@@ -704,7 +704,7 @@ font-weight: 500;
 .NFT__container-right--arrow{
     margin-left: 9px;
 }
-/* .ellipse9  {
+.ellipse9  {
   content: "";
   position: absolute;
   width: 150px;
@@ -715,7 +715,7 @@ font-weight: 500;
    box-shadow: 0 0 150px 150px rgba(100, 25, 113, 1) ;
   border-radius:  153.659px;
   opacity: 0.3;
-} */
+}
 .ellipse10 {
   content: "";
   position: absolute;
@@ -728,6 +728,8 @@ font-weight: 500;
   border-radius:  153.659px;
   opacity: 0.3;
 }
+
+
 
 
 
@@ -1411,6 +1413,9 @@ padding-top: 12px;
     background: linear-gradient(130deg, #FF56F6 18.31%, #B936EE 43.26%, #3BACE2 85.44%, #406AFF 100%);
    
   
+}
+.Discover__explore--link4{
+    display: none;
 }
 
 
