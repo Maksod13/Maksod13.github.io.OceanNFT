@@ -731,10 +731,6 @@ font-weight: 500;
 
 
 
-.Discover__explore{
-    display: none;
-}
-
 
 .Explore{
        margin-top: 208px;
@@ -1416,7 +1412,9 @@ padding-top: 12px;
    
   
 }
-
+.Discover__explore--link4{
+    display: none;
+}
 
 
 
