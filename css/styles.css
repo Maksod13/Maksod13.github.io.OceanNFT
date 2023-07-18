@@ -2331,16 +2331,197 @@ margin-left: 0;
 }
 
 
+@media(max-width:700px){
+.Discover__footer{
+    flex-wrap: wrap;
+    
+}
+.Discover__title{
+    max-width: 400px;
+   
+}
+.Discover__subtitle{
+    max-width: 400px;
+}
+.footer__logo--item{
+    max-width: 180px;
+}
+.NFT__item+.NFT__item{
+margin-left: 50px;
+}
+
+.NFT__item:last-child{
+    margin-left: 0;
+}
+.Explore__View{
+    padding-left: 480px;
+}
+.Collection__container+.Collection__container{
+    margin-left: 50px;
+}
+.Collection__container:last-child{
+    margin-left: 0;
+}
+.line{
+    max-width: 700px;
+}
 
 
+}
 
+@media(max-width:600px){
+    .Discover__title{
+        max-width: 600px;
+        font-size: 45px;
+    }
+    .Discover__subtitle{
+    max-width: 600px;
+}
+.Discover__photo{
+    max-width: 600px;
+}
+.ellipse2{
+    display: none;
+}
+.Discover__column-container{
+    max-width: 600px;
+        width: 400px;
+        height: 200px;
+        top: 400px;
+}
+.Discover__column-container--left{
+   padding-left: 20px;
+   padding-top: 30px;
+}
 
+.Discover__container-left--name{
+    font-size: 25px;
+    
+}
+.Discover__container-left--username{
+    font-size: 20px;
+}
+.Discover__container-left--price{
+    font-size: 15px;
+}
+.Discover__container-left--ethereum{
+    padding-top: 10px;
+}
+.Discover__container-right--end{
+    font-size: 15px;
+}
+.time__item--hours{
+    font-size: 25px;
+}
+.time__item--name {
+    font-size: 15px;
+    padding-top: 10px;
+}
+.Discover__container-right--time{
+    padding-top: 10px;
+}
+.container__right-link{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.ellipse{
+    display: none;
+}
+.Discover__footer{
+    margin-top: 200px;
+}
+.NFT__item+.NFT__item{
+margin-left: 0;
+}
 
+.NFT__container-items{
+    margin-left: 120px;
+}
+.Explore__View{
+    padding-left: 370px;
+}
+.Collection__container+.Collection__container{
+    margin-left:0;
+}
+.Collection__container:last-child{
+    margin-top: 50px;
+}
+.Collection__container{
+    margin-top: 50px;
+}
+.Collection__block{
+    margin-left: 120px;
+}
 
+.Explore__img--item{
+    margin-left: 100px;
+}
+.Top__seller--text{
+    margin-left: 50px;
+}
+.Inline__container{
+    margin-left: 90px;
+}
+.Explore__link--explore{
+    margin-left: 190px;
+}
+.ellipse7{
+    display: none;
+}
+.container__inside{
+    left: 0;
+}
+.Subscribe__img img{
+    width: 500px;
+}
+.line{
+    max-width: 550px;
+}
+}
 
-
-
-
+@media(max-width:500px){
+ .Explore__View{
+    padding-left: 280px;
+ }
+ .NFT__container-items{
+    margin-left: 50px;
+}
+.Collection__block{
+    margin-left: 50px;
+}
+.Explore__img--item{
+    margin-left: 50px;
+}
+.NFT__inner--now{
+    font-size: 20px;
+}
+.NFT__inner-link{
+    font-size: 20px;
+}
+.Top__seller--text{
+    margin-left: 10px;
+    width: 400px;
+}
+.Inline__container{
+    margin-left: 0;
+}
+.Explore__link--explore{
+    margin-left: 100px;
+}
+.container__inside{
+    width: 450px;
+    height: 500px;
+}
+.Subscribe__img img{
+    width: 400px;
+}
+.input__text{
+    font-size: 18px;
+}
+.line{
+    max-width:455px;
+}
+}
 
 
 
@@ -2679,7 +2860,7 @@ top: 15px;
 }
 
 .Discover__explore--link2 {
-       background-image: url(../useerphoto/Rectangle\ 333.svg);
+       background-image: url(../assets/useerphoto/Rectangle\ 333.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 140px;
@@ -2701,7 +2882,7 @@ border-image: linear-gradient(to right, rgba(255, 166, 250, 1), rgba(60, 121, 21
 }
 
 .Discover__explore--link3{
-       background-image: url(../useerphoto/Rectangle\ 333.svg);
+       background-image: url(../assets/useerphoto/Rectangle\ 333.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 140px;
@@ -2722,7 +2903,7 @@ border-image: linear-gradient(to right, rgba(255, 166, 250, 1), rgba(60, 121, 21
 border-image: linear-gradient(to right, rgba(255, 166, 250, 1), rgba(60, 121, 212, 0.1)) 1;
 }
 .Discover__explore--link4{
-       background-image: url(../useerphoto/Rectangle\ 333.svg);
+       background-image: url(../assets/useerphoto/Rectangle\ 333.svg);
   background-repeat: no-repeat;
   background-position: center;
   width: 140px;
