@@ -2523,8 +2523,89 @@ margin-left: 0;
 }
 }
 
+@media(max-width:428px){
+    .Discover__footer{
+        margin-top: 150px;
+    }
+    .NFT{
+        margin-top: 100px;
+    }
+    .Explore{
+        margin-top: 100px;
+    }
+    .Explore__img-container{
+        height: 500px;
+    }
+    .Explore__text {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    td{
+    width: 180px;
+    height: 40px;
+    padding-bottom: 11px;
+    font-size: 21px;    
+    padding-left: 2px;
+    
+}
+td a{
+    width: 117px;
+    font-family: Orbitron;
+font-size: 10.992px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 
 
+}
+.Explore__table-items{
+    border-spacing: 11px 20px;
+    margin-right: 0;
+    padding-top: 0;
+    
+}
+.Explore__View {
+    padding-left: 210px;
+}
+.ellipse4{
+    display: none;
+}
+.Explore__img--item {
+    margin-left: 50px;
+    width: 300px;
+    
+}
+.Collection__block{
+    margin-top: 0;
+}
+.NFT__inner-link--arrow {
+    width: 40px;
+    height: 15px;
+}
+.Inline__items{
+    width: 410px;
+}
+.container__inside{
+    width: 400px;
+    height: 550px;
+}
+.container__inside--inner{
+    font-size: 30px;
+}
+.input__text{
+    width: 400px;
+    font-size: 15px;
+}
+.email-input{
+    margin-left: 40px;
+}
+.subscribe-button{
+    margin-left: 110px;
+}
+.line{
+    max-width: 428px;
+}
+}
 
 
 @media(max-width:375px)
