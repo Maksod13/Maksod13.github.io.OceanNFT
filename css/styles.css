@@ -185,7 +185,7 @@ max-width: 657.748px;
     display: flex;
     align-items: center;
     /* width: 500px; */
-    padding-top: 43px;
+    padding-top: 45px;
 
 }
 /* .Discover__explore{
@@ -200,33 +200,98 @@ max-width: 657.748px;
     box-shadow: 0px 4.421836853027344px 107.22954559326172px 0px rgba(255, 86, 246, 0.51);
     backdrop-filter: blur(106.12408447265625px); 
 } */
-
-.Discover__explore--link{
-    /* color: #FFF; */
-    /* font-size: 19.898px;
-    font-family: Orbitron;
-    font-weight: 700; */
-    width: 249px;
-    height: 64px;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 38px;
-    background-image: linear-gradient(to right, rgba(59, 172, 226, 1), rgba(185, 54, 238, 1), rgba(255, 86, 246, 1));
-  /* Дополнительные стили для кнопки */
-    font-size: 19.898px;
-font-family: Orbitron;
-font-weight: 700;
-color: #FFF;
-border: 2px solid ;
-border-image: linear-gradient(to right, rgba(255, 166, 250, 1), rgba(60, 121, 212, 1)) 1;
-clip-path: polygon(16% 0%, 100% 0%, 100% 80%, 85% 100%, 0% 100%, 0% 100%, 0% 25%);
+ .Discover__explore--link5{
+    display: none;
+ }
+.Bg__explore {
+background: linear-gradient(326deg, transparent 17px, #B936EE  0) right, linear-gradient(145deg, transparent 20px, #B936EE  0) left;
+background-size: 60% 100%;
+background-repeat: no-repeat;
+width: 250px;
+height:63px ;
 }
+.Discover__explore--link {
+  position: relative;
+  margin-left: 30px;
+  width: 190px;
+  height: 65px;
+  line-height: 60px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-top: 3px solid  ;
+  border-bottom: 3px solid ;
+  transform-origin: 50% 100% 0;
+  border-image: linear-gradient(130deg, #FF56F6 18.31%, #B936EE 43.26%, #3BACE2 85.44%, #406AFF 100%);
+  border-image-slice: 1; /* Разделение границы на равные сегменты */
+   
+}
+
+
+
+
+.Discover__explore--link a{
+  color: #FFF;
+font-family: Orbitron;
+font-size: 19.898px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 25px;
+}
+
+.Discover__explore--link::before,
+.Discover__explore--link::after {
+  position: absolute;
+  content: '';
+  width: 35px;
+  height: 40px;
+}
+
+.Discover__explore--link::before {
+  left: -32px;
+  bottom: -3px;
+  border-left: 3px solid #B936EE;
+  border-bottom: 3px solid #B936EE ;
+  
+}
+
+.Discover__explore--link::after {
+  right: -32px;
+  top: -3px;
+  border-top: 3px solid #B936EE;
+  border-right: 3px solid #B936EE ;
+}
+
+.corner {
+  position: absolute;
+  width: 11px;
+  height: 40px;
+  transform: 100% 100%;
+  transform: rotate(55deg);
+  
+}
+
+.left {
+  top: -6px;
+  left: -18px;
+  border-left: 3px solid #B936EE;
+}
+
+.right {
+  bottom: -6px;
+  right: -19px;
+  border-right: 3px solid #B936EE;
+  
+}
+
+
 .Discover__explore--link2{
     display: none;
 }
 .Discover__link{    
-    padding-left: 37px;
+    padding-left: 30px;
     font-size: 19.898px;
     font-family: Orbitron;
     font-weight: 700;
@@ -430,6 +495,7 @@ top: 15px;
     font-family: Rajdhani;
     font-weight: 600;
     padding: 0;
+    cursor: pointer;
 }
 .container__right--arrow{
     padding-left: 5px;
@@ -699,6 +765,7 @@ font-weight: 500;
     font-weight: 600;
     margin-top: 57px;
     margin-right: 22px;
+    cursor: pointer;
 }
 
 .NFT__container-right--arrow{
@@ -968,6 +1035,7 @@ font-weight: 600;
     font-family: Rajdhani;
     font-style: normal;
     font-weight: 600;
+    cursor: pointer;
 
 }
 .collections__container{
@@ -1411,6 +1479,7 @@ padding-top: 12px;
     font-family: Rajdhani;
     font-weight: 600;
     background: linear-gradient(130deg, #FF56F6 18.31%, #B936EE 43.26%, #3BACE2 85.44%, #406AFF 100%);
+    cursor: pointer;
    
   
 }
@@ -1699,10 +1768,8 @@ padding-left: 5dpx;
               .social-links i {
                  font-size: 24px; /* Установите желаемый размер иконок */
                  color: #FFF;
-                background-color: rgba(255, 255, 255, 0.3);
-                 border: 2px solid rgba(255, 255, 255, 0.3);
                  border-radius: 50%;
-                 ;
+                 
                 }
               .footer-inner {
                 display: flex;
@@ -1758,9 +1825,40 @@ padding-left: 5dpx;
 
 
 
+
+
+
+
 @media(max-width:1200px){
     .Discover__column{
         white-space: normal;
+    }
+    .Bg__explore{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .Discover__explore--link5{
+    background-image: url(../assets/img/Rectangle\ 333.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 200px;
+  height: 54px;
+  background-color: #210C3C;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+   padding-left: 17px;
+ clip-path: polygon(16% 0%, 100% 0%, 100% 80%, 85% 100%, 0% 100%, 0% 100%, 0% 25%);
+border-image: linear-gradient(to right, rgba(255, 166, 250, 1), rgba(60, 121, 212, 0.1)) 1;
     }
     .Discover__title{
     color: #FFF;
@@ -1769,7 +1867,7 @@ padding-left: 5dpx;
     font-style: normal;
     font-weight: 700;
     line-height: 137.4%;
-    max-width:700px;
+    max-width: 600px;
     }
         .Discover__subtitle{
         color: #FFF;
@@ -1872,7 +1970,7 @@ padding-left: 5dpx;
     font-style: normal;
     font-weight: 700;
     line-height: 137.4%; 
-    /* width: 550px; */
+    width: 550px;
     }
     
     .Discover__subtitle{
@@ -2091,7 +2189,24 @@ line-height: normal;
 }
 
 }
+@media(max-width:900px){
+.Discover__title{
+    max-width: 500px;
+}
+.Inline__container{
+    margin-left: 0;
 
+}
+.Inline__items{
+    width: 420px;
+}
+.Top__seller--text{
+    margin-left: 190px;
+}
+.Explore__link--explore{
+    margin-left: 330px;
+}
+}
 @media(max-width:768px){
       .burger{
         display: flex;
@@ -2610,6 +2725,10 @@ line-height: normal;
 
 @media(max-width:375px)
 { 
+    .slick-slider
+   .container{
+    margin-left: 30px;
+   }
     .header{
         margin-top: 17px;
     }
@@ -2692,6 +2811,8 @@ line-height: normal;
         max-width: 315px;
         margin-top: 28px;
     }
+
+
     .Discover__list-item--number{
         color: #FFF;
         font-size: 18px;
@@ -3248,6 +3369,7 @@ order: 2;
 .email-input{
     width: 180.973px;
 height: 35.027px;
+margin-left: 0;
 }
 .subscribe-button{
     width: 94.865px;
