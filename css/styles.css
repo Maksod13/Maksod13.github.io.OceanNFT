@@ -2483,7 +2483,81 @@ margin-left: 50px;
 
 
 }
+@media(max-width:680px){
+    .Discover__column{
+        max-width: 350px;
+    }
+    .Discover__title{
+        max-width: 350px;
+    }
+    .Discover__subtitle {
+        max-width: 350px;
+    }
+    .Discover__link{
+        padding-left: 5px;
+    }
+    .Discover__list{
+        max-width: 300px;
+    }
+    .ellipse2{
+    display: none;
+}
 
+.ellipse{
+    display: none;
+}
+.Discover__footer{
+    margin-top: 200px;
+}
+.NFT__item+.NFT__item{
+margin-left: 0;
+}
+
+.NFT__container-items{
+    margin-left: 120px;
+}
+.Explore__View{
+    padding-left: 370px;
+}
+.Collection__container+.Collection__container{
+    margin-left:0;
+}
+.Collection__container:last-child{
+    margin-top: 50px;
+}
+.Collection__container{
+    margin-top: 50px;
+}
+.Collection__block{
+    margin-left: 120px;
+}
+
+.Explore__img--item{
+    margin-left: 100px;
+}
+.Top__seller--text{
+    margin-left: 50px;
+}
+.Inline__container{
+    margin-left: 90px;
+}
+.Explore__link--explore{
+    margin-left: 190px;
+}
+.ellipse7{
+    display: none;
+}
+.container__inside{
+    left: 0;
+}
+.Subscribe__img img{
+    width: 500px;
+}
+.line{
+    max-width: 600px;
+}
+
+}
 @media(max-width:600px){
     .Discover__title{
         max-width: 600px;
@@ -2639,6 +2713,13 @@ margin-left: 0;
 }
 
 @media(max-width:428px){
+
+    .Discover__title{
+        max-width: 500px;
+    }
+    .Discover__subtitle{
+        max-width: 400px;
+    }
     .Discover__footer{
         margin-top: 150px;
     }
